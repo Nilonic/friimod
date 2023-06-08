@@ -17,3 +17,6 @@ upload-twine:
 upload-github:
 	@git add -A
 	@git commit -m "yes"
+	@git push
+	@git pull
+
