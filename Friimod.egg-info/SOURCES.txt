@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+Friimod.egg-info/PKG-INFO
+Friimod.egg-info/SOURCES.txt
+Friimod.egg-info/dependency_links.txt
+Friimod.egg-info/top_level.txt
+Friimod/friimod/__init__.py
+Friimod/friimod/friimod.py
+tests/test.py
