@@ -1,5 +1,7 @@
 all: clear update build
 
+YOLO: clear update build upload-twine upload-github sync-github
+
 clear:
 	@-rm ./dist/*
 
