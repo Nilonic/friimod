@@ -2,6 +2,8 @@
 
 friimod is a Python library that provides functions for checking and loading modules dynamically.
 
+(if you're looking for a wii softmodding thing, try [wii.guide](https://wii.guide/))
+
 ## Installation
 
 You can install friimod using pip:
@@ -31,7 +33,7 @@ This function loads a module dynamically and returns a list of its functions.
   - `mod_location` (str): The location of the module to load.
 
 - Returns:
-  - List[str]: A list of functions available in the loaded module.
+  - tuple(List[functions], list[function_names]): A list of functions available in the loaded module.
 
 ### `abort()`
 
