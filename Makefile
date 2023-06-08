@@ -20,3 +20,7 @@ upload-github:
 	@git push
 	@git pull
 
+sync-github:
+	@git pull
+	@git push
+
