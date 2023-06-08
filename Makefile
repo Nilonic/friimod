@@ -1,6 +1,6 @@
 all: clear update build
 
-YOLO: clear update build upload-github upload-twine sync-github
+YOLO: clear build upload-github upload-twine i[v]envy-you 
 
 clear:
 	@-rm ./dist/*
@@ -26,3 +26,9 @@ sync-github:
 	@git pull
 	@git push
 
+i-[v]envy-you:
+	@cd tests
+	@source bin/activate
+	@pip install -i https://test.pypi.org/simple/ Friimod
+	@deactivate
+	@cd ..

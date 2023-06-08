@@ -2,7 +2,7 @@ import os
 import importlib
 
 def check_mod(mod_location):
-    if(os.path.exists() == True):
+    if(os.path.exists(mod_location) == True):
         return 1
     else:
         return 0
